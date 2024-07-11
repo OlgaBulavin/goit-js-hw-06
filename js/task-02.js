@@ -15,4 +15,4 @@ const arrayEl = ingredients.map((ingredient) => {
   return listEl;
 });
 
-ingredientsEl.append(...arrayEl);
+list.append(...arrayEl);
