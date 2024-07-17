@@ -4,11 +4,11 @@ inputLenght.addEventListener('blur', onInputBlur => {
     
        if (onInputBlur.currentTarget.value.length === inputLenght.getAttribute('length'))
 
-            { inputLenght.classList.add("validation-input.valid");
-            inputLenght.classList.remove("validation-input.invalid");
+            { inputLenght.classList.add("valid");
+            inputLenght.classList.remove("invalid");
              } else {
-                inputLenght.classList.add("validation-input.invalid");
-                inputLenght.classList.remove("validation-input.valid");
+                inputLenght.classList.add("invalid");
+                inputLenght.classList.remove("valid");
             }
         });
 
