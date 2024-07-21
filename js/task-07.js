@@ -3,5 +3,5 @@ const text = document.querySelector("#text");
 
 
 range.addEventListener("input", (event) => {
-  text.style.fontSize = event.currentTarget;
+  text.style.fontSize = event.currentTarget.value + 'px';
 });
